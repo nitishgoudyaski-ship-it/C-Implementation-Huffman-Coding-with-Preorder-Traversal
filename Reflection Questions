@@ -1,0 +1,15 @@
+Reflection Questions
+1. How long did you spend on this assignment? 
+
+I have spent around 4 hours on this assignment, including the time to recall the Huffman algorithm, research preorder traversal requirements, and debug small compilation issues in C++. Initially, I wrote a standard Huffman implementation that produced codes, but not necessarily in preorder. Then, I have restructured the code to include a recursive preorder traversal function. Additionally, I spent time verifying the process of the output with the given example and ensuring the code handled edge cases. I have also reviewed examples from online resources to reinforce my understanding of greedy algorithms.
+
+2. Based on your effort, what letter grade would you say you earned?
+My effort, I would say I earned an A grade. I have studied the Huffman Coding algorithm, implemented the solution in C++, and tested it against the given example. I have also taken the time to write clean, modular code that clearly distinguishes between building the Huffman tree and printing the codes in preorder traversal. I went beyond simply coding by documenting my thought process, verifying correctness, and ensuring the solution is reusable for any string and frequency set. The time and dedication I put into understanding the problem reflect a strong effort deserving of the highest grade.
+
+3. Based on your solution, what letter grade would you say you earned?
+
+My process and completeness of my solution, I would have given myself an A grade. The output matches the expected Huffman codes in preorder traversal for the given example. My solution successfully implements a greedy algorithm using a min-heap to build the Huffman Tree and a recursive function to traverse it in preorder. The implementation is efficient, clean, and generalizable. It should work for any set of distinct characters and frequencies. Since the program could provide me an accurate results without logical or compilation errors, I believe it demonstrates a high level of competence and deserves the top grade.
+
+4. Provide a summary of what doesn't work in your solution, along with an explanation of how you attempted to solve the problem and where you feel you struggled.
+
+The one limitation of my solution is that it does not explicitly print character-to-code mappings during preorder traversal it only prints the code in order. While this matches the given assignment output, in a real-time scenario, the mapping of characters to codes would be more practical. Another potential weakness is that the implementation assumes the input characters are distinct and doesn’t handle error cases such as empty strings or zero frequencies. I have struggled with understanding how preorder traversal is applied in Huffman trees since, the most examples are in use in-order listings. After debugging, I refined the recursive traversal to ensure correctness.
