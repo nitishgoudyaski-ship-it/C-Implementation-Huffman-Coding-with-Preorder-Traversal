@@ -46,3 +46,9 @@ A recursive function performs preorder traversal, printing codes as the tree is 
 Main.cpp → C++ source file containing the full implementation.
 
 README.md → Documentation for the project.
+
+Complexity
+
+Time Complexity: O(N log N) where N is the number of characters (due to heap operations).
+
+Space Complexity: O(N) for storing the Huffman tree.
